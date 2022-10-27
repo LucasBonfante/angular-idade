@@ -1,0 +1,10 @@
+<div>
+  <label for="ano">Ano de Nascimento:</label>
+  <br/>
+  <input type="number" [(ngModel)]="ano" />
+</div>
+<div>
+  <input type="button" value="Calcular" (click)="calcular()"/>
+</div>
+
+<h2> Voce tem {{ resultado }} anos. <h2>
